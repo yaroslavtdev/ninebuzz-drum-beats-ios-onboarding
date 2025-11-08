@@ -1,0 +1,628 @@
+{
+  "version": "002",
+  "screens": [
+    {
+      "type": "question",
+        "question": {
+          "tag": "top-motivation",
+          "allowsMultipleSelection": true,
+          "title": "What’s your top motivation?",
+          "subtitle": "Select all that apply",
+          "required": true,
+          "autoAdvanceOnChoice": false,
+          "choices": [
+            {
+              "uuid": "5601E171-12E2-4D12-94C1-938C9656EC46",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Improve my rhythm and timing",
+              "tag": "Improve my rhythm and timing",
+            },
+            {
+              "uuid": "ED20D030-40DA-4CE5-8E3B-E105DC9B5570",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Creative inspiration",
+              "tag": "Creative inspiration"
+            },
+            {
+              "uuid": "FA510E06-97D1-4AF6-9AA3-7CC670D45CF4",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Prepare for a gig",
+              "tag": "Prepare for a gig"
+            },
+            {
+              "uuid": "783083FF-8D1A-4545-88FD-5C95B6AFCFE3",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Experiment and have fun",
+              "tag": "Experiment and have fun"
+            },
+            {
+              "uuid": "DE786745-468E-4261-BED0-914F855E1116",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Learn to play with a drummer",
+              "tag": "Learn to play with a drummer"
+            },
+            {
+              "uuid": "2836EA95-2446-4E79-9469-2A8BDBF4A90F",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Replace my boring metronome",
+              "tag": "Replace my boring metronome"
+            }
+          ],
+          "uuid": "0F47E8F9-C7FB-47D0-BEDD-3A7D964A3A38"
+        }
+    },
+    {
+      "type": "question",
+        "question": {
+          "tag": "instrument",
+          "allowsMultipleSelection": false,
+          "title": "Choose your instrument 🚀",
+          "required": false,
+          "autoAdvanceOnChoice": true,
+          "choices": [
+            {
+              "uuid": "2A7C929B-1B71-4132-9C71-DF60A6E49BDB",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Guitar",
+              "tag": "guitar"
+            },
+            {
+              "uuid": "E59CC5E0-0DD4-4C90-8DB1-B849272A2E49",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Bass Guitar",
+              "tag": "bass_guitar"
+            },
+            {
+              "uuid": "4AD604CC-BDED-4A0E-A870-BBE02CC784B6",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Drums",
+              "tag": "drums"
+            },
+            {
+              "uuid": "60418FB3-98A0-4138-B6D1-B8EEC14E4EDB",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Piano / Keyboard",
+              "tag": "piano_keyboard"
+            },
+            {
+              "uuid": "BFF7FF34-CC96-4AB2-B350-CCF32948B2B5",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Ukulele",
+              "tag": "ukulele"
+            },
+            {
+              "uuid": "2A818E1B-F3BA-4A39-831A-1F8DA7F739D8",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Trumpet",
+              "tag": "trumpet"
+            },
+            {
+              "uuid": "5108C67D-4A4A-4003-86C3-015041C32707",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Saxophone",
+              "tag": "saxophone"
+            },
+            {
+              "uuid": "30F2D360-62CA-46F5-9EB5-45EDFA26920A",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Trombone",
+              "tag": "trombone"
+            },
+            {
+              "uuid": "DF850D3C-BDE4-4A83-8E7E-C0293535226A",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Violin",
+              "tag": "violin"
+            },
+            {
+              "uuid": "CE62383D-E3E4-48F4-95BB-FBC95084DCF8",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Banjo",
+              "tag": "banjo"
+            },
+            {
+              "uuid": "B6FE1F80-B8DC-4B2E-8C5D-0E15E94C844A",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Accordion",
+              "tag": "accordion"
+            },
+            {
+              "uuid": "9645B7AD-61E7-4395-99D7-EC2E2B514BE0",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Bassoon",
+              "tag": "bassoon"
+            },
+            {
+              "uuid": "10F67E17-5BD0-4709-8E2E-1300B9CFB88D",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Brass",
+              "tag": "brass"
+            },
+            {
+              "uuid": "C1F4B54F-CBE1-4505-BAE8-5FBB748CB1D2",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Cello",
+              "tag": "cello"
+            },
+            {
+              "uuid": "08B9B8C4-FF5E-4DA4-BC01-B6D8484A88CF",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Clarinet",
+              "tag": "clarinet"
+            },
+            {
+              "uuid": "FE50E75C-B2D2-4D3E-BB77-7BE3F5D1F788",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Double Bass",
+              "tag": "double_bass"
+            },
+            {
+              "uuid": "21E04E54-C685-4EFB-8B28-CF16CCFE477E",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Fiddle",
+              "tag": "fiddle"
+            },
+            {
+              "uuid": "A7D1F270-61F1-4C8E-8701-9DBA4254D8B9",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Flute",
+              "tag": "flute"
+            },
+            {
+              "uuid": "A93A8058-E9B7-4880-BFCB-FEBF53EBF2E1",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Harmonica",
+              "tag": "harmonica"
+            },
+            {
+              "uuid": "88D07DE6-8154-4B4D-A203-39A536E25C02",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Horn",
+              "tag": "horn"
+            },
+            {
+              "uuid": "41F7D2DA-B7C8-4D96-BD73-775F43877F66",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Mandolin",
+              "tag": "mandolin"
+            },
+            {
+              "uuid": "BF699536-4A96-4D68-8CF9-F17A63C59348",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Organ",
+              "tag": "organ"
+            },
+            {
+              "uuid": "C6CE26D5-1F37-4B70-8B8D-F52ED9D611FB",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Pedal Steel Guitar",
+              "tag": "pedal_steel_guitar"
+            },
+            {
+              "uuid": "964AA04F-C171-4037-8D38-26EAC86E92B0",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Percussion",
+              "tag": "percussion"
+            },
+            {
+              "uuid": "96DC47A0-D6B6-4DF2-815A-C5C70F9C1557",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Tuba",
+              "tag": "tuba"
+            },
+            {
+              "uuid": "40102C58-5AD4-4B2C-B33D-B59F3887DE9D",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Vibraphone",
+              "tag": "vibraphone"
+            },
+            {
+              "uuid": "42C319CF-DC67-4B0A-B9FC-4DE9B67D73E9",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Viola",
+              "tag": "viola"
+            },
+            {
+              "uuid": "23C17A3C-9B93-43AA-B2F9-B99C355BF385",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Voice/Singer",
+              "tag": "voice_singer"
+            },
+            {
+              "uuid": "CFCA3E3E-14F3-4B5F-82D0-EA78062DC3AE",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Other",
+              "tag": "other"
+            }
+          ],
+          "uuid": "3A11559C-4CFF-4560-8ADE-7EDE5135A690"
+        }
+    },
+    {
+      "type": "dynamicInfo",
+      "metadata": {
+        "topImageName": "",
+        "title": "Motivation is the key to success",
+        "message": "The path to your goal may be tough at times, but we’re here to support you with everything you need. You’ll never walk it alone.",
+        "ctaMain": "Sounds great"
+      }
+    },
+    {
+      "type": "question",
+        "question": {
+          "tag": "motivation",
+          "allowsMultipleSelection": false,
+          "title": "What’s your experience level?",
+          "required": false,
+          "autoAdvanceOnChoice": false,
+          "footerText": "*users of Drum Beats+ who took the quiz.",
+          "choices": [
+            {
+              "uuid": "A9C4F997-817E-44D2-A669-AEDDC0A673DF",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "First-timer 🔥",
+              "tag": "first_timer",
+              "tooltip": {
+                  "title": "You're in great company!",
+                  "message": "5% of our users* are just getting started.",
+                  "shownByTag": "yes"
+              }
+            },
+            {
+              "uuid": "1312AA86-E99D-4C8B-A321-DE27A5936F02",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Beginner 🔥🔥",
+              "tag": "beginner",
+              "tooltip": {
+                  "title": "Welcome!",
+                  "message": "25% of our users* are building their foundation, just like you.",
+                  "shownByTag": "yes"
+              }
+            },
+            {
+              "uuid": "4DEBC34E-4BBC-46DC-8CB0-CA75C81CD8A3",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Intermediate 🔥🔥🔥",
+              "tag": "intermediate",
+              "tooltip": {
+                  "title": "Nice!",
+                  "message": "37% of our users* are at your level. You're making awesome progress!",
+                  "shownByTag": "yes"
+              }
+            },
+            {
+              "uuid": "61B04A1D-F569-4421-B91E-05FA5BC839F8",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Advanced 🔥🔥🔥🔥",
+              "tag": "advanced",
+              "tooltip": {
+                  "title": "Impressive!",
+                  "message": "20% of our users* are pushing their skills to the next level.",
+                  "shownByTag": "yes"
+              }
+            },
+            {
+              "uuid": "E3A5021F-B978-477B-867B-013D77E0D586",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Instructor 🤓",
+              "tag": "instructor",
+              "tooltip": {
+                  "title": "You're among the best!",
+                  "message": "13% of our users* are pros like you.",
+                  "shownByTag": "yes"
+              }
+            }
+          ],
+          "uuid": "E47EF474-421A-4015-9D42-9CE31DFBF31D"
+        }
+    },
+    {
+      "type": "question",
+        "question": {
+          "tag": "struggle",
+          "allowsMultipleSelection": true,
+          "title": "Do you struggle with...",
+          "subtitle": "Select all that apply",
+          "required": true,
+          "autoAdvanceOnChoice": false,
+          "choices": [
+
+            {
+              "uuid": "60735EBF-CE33-4903-8F25-194974D63C7A",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Keeping steady timing with others",
+              "tag": "keeping"
+            },
+            {
+              "uuid": "DA4555F2-007A-47AF-8889-DAF9A42CB1EF",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Finding creative inspiration",
+              "tag": "finding"
+            },
+            {
+              "uuid": "C8AB9F74-5671-48A9-A6E2-9670220F1438",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Staying consistent with practice",
+              "tag": "staying"
+            },
+            {
+              "uuid": "7A646AE1-AAAE-483C-B270-FD7CBD97638B",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Locking into the groove",
+              "tag": "locking"
+            },
+            {
+              "uuid": "04BF3A16-5A5C-4733-B4A9-48C8A6F1A003",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Adding variety to your practice",
+              "tag": "adding"
+            },
+
+          ],
+          "uuid": "C8AB9F74-5671-48A9-A6E2-9670220F1438",
+        }
+    },
+    {
+      "type": "info",
+      "metadata": {
+        "topImageName": "image_top_right_spot",
+        "title": "You’re in the right spot! 🎉",
+        "message": "83% of musicians say they’d be disappointed if they could no longer practice with Drum Beats+.",
+        "ctaMain": "Continue"
+      }
+    },
+    {
+      "type": "styles",
+      "metadata": {
+        "topImageName": "scrolling_image",
+        "title": "“So many styles to choose from. I love it!”",
+        "message": "300,000 musicians choose to practice with Drum Beats+.",
+        "ctaMain": "NEXT STEP"
+      }
+    },
+    {
+      "type": "question",
+        "question": {
+          "tag": "favorite_genres",
+          "allowsMultipleSelection": true,
+          "title": "Choose your favorite genres",
+          "subtitle": "Select all that apply",
+          "required": true,
+          "autoAdvanceOnChoice": false,
+          "choices": [
+            {
+              "uuid": "F4A5B5BE-815B-472F-94D9-89819FFACF7B",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Alternative rock",
+              "tag": "alternative_rock"
+            },
+            {
+              "uuid": "40D3C783-663C-4BB2-BE25-0C85A09E2A2F",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Blues",
+              "tag": "blues"
+            },
+            {
+              "uuid": "EB91645E-9C8F-4F7F-98BD-14823482F329",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Classic rock",
+              "tag": "classic_rock"
+            },
+            {
+              "uuid": "872447F6-31A7-4382-98DB-73BB6E06B646",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Contemporary R&B",
+              "tag": "contemporary_rnb"
+            },
+            {
+              "uuid": "1A1FF0E4-B567-4888-88B2-10F2D3E227B8",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Country",
+              "tag": "country"
+            },
+            {
+              "uuid": "F61D21D4-B7C7-4F87-BC8B-3D78019705B6",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Country pop",
+              "tag": "country_pop"
+            },
+            {
+              "uuid": "1C53BCAB-F38A-4E07-AF34-C62765B56A71",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Electropop",
+              "tag": "electropop"
+            },
+            {
+              "uuid": "469CA19C-4813-4790-A472-6A5CB31EB4D9",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Funk rock",
+              "tag": "funk_rock"
+            },
+            {
+              "uuid": "48A7C14F-F78A-4E37-80C6-13D2B3A5D3AC",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Funk soul",
+              "tag": "funk_soul"
+            },
+            {
+              "uuid": "1428724E-E8CB-48B3-93DE-38AFC7F134C4",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Hard rock",
+              "tag": "hard_rock"
+            },
+            {
+              "uuid": "94DC4D82-A8CF-4786-B869-76E47C6C64A3",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Indie pop",
+              "tag": "indie_pop"
+            },
+            {
+              "uuid": "F4187584-4A1D-4BB3-8E96-61EE9421AE4F",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Indie rock",
+              "tag": "indie_rock"
+            },
+            {
+              "uuid": "C46BCE80-CA7B-4048-95C0-283B2638C7DC",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Jazz",
+              "tag": "jazz"
+            },
+            {
+              "uuid": "FB7CE63A-420C-4E49-890A-33A3E3F52991",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Latin & World",
+              "tag": "latin_world"
+            },
+            {
+              "uuid": "91A06739-31D8-4AE1-8E27-0F1A519B8204",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Pop",
+              "tag": "pop"
+            },
+            {
+              "uuid": "A1D2F95A-569A-490E-A948-12401D5F59E4",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Pop punk",
+              "tag": "pop_punk"
+            },
+            {
+              "uuid": "B70BB972-3083-40A1-BF78-79C1542DF60D",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Pop rock",
+              "tag": "pop_rock"
+            },
+            {
+              "uuid": "02D4C4DC-159A-4E83-BAB2-8BE31B02E9E3",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Pop soul",
+              "tag": "pop_soul"
+            },
+            {
+              "uuid": "A76A8B14-59B3-4C4D-AF88-150CC53B0F50",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Reggae",
+              "tag": "reggae"
+            },
+            {
+              "uuid": "42EB251B-156E-49BC-BFE1-8B172682B9B4",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Singer-songwriter",
+              "tag": "singer_songwriter"
+            },
+            {
+              "uuid": "CFD1FE83-F926-48E7-BE1B-AD5AD45391F6",
+              "selected": false,
+              "allowsCustomTextEntry": false,
+              "text": "Worship music",
+              "tag": "worship_music"
+            }
+          ],
+          "uuid": "245D9717-EB36-4507-AFA3-0FBC6C17DF23"
+        }
+    },
+    {
+      "type": "loading",
+      "metadata": {
+        "infoTitle": "Personalizing Your App...",
+        "headerText": "4.8 Top-Rated",
+        "subheadingText": "Music App",
+        "topImageName": "review_image",
+        "durationSec": 6,
+        "bottomText": "6.5k App Store Reviews"
+      }
+    },
+    {
+      "type": "quickQuestion",
+      "metadata": {
+        "type": "timing",
+        "title": "Do you want to improve your timing?",
+        "ctaMain": "YES",
+        "ctaSecondary": "NO"
+      }
+    },
+    {
+      "type": "quickQuestion",
+      "metadata": {
+        "type": "confidence",
+        "title": "Do you want to play with more confidence?",
+        "ctaMain": "YES",
+        "ctaSecondary": "NO"
+      }
+    },
+    {
+      "type": "quickQuestion",
+      "metadata": {
+        "type": "motivated",
+        "title": "Do you want to make practice more fun and feel more motivated?",
+        "ctaMain": "YES",
+        "ctaSecondary": "NO"
+      }
+    }
+  ]
+}

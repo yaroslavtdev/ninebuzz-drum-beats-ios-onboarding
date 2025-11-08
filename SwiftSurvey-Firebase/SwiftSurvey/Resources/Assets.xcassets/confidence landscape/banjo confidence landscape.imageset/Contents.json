@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "banjo2-min.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

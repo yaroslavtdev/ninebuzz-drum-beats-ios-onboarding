@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "cello2-min.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
